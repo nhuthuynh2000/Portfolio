@@ -6,7 +6,7 @@ const ContentNames =
     [
         "projects",
         "career",
-        "skills",
+        "skills"
     ];
 
 const TextAreaMinHeightExtended = "200px";
