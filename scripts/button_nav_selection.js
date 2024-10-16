@@ -23,7 +23,7 @@ async function loadContent() {
     for (let i = 0; i < ContentNames.length; ++i) {
         IncludeText.push("");
         try {
-            const response = await fetch("./data/pages/" + ContentNames[i] + ".html");
+            const response = await fetch("./Data/pages/" + ContentNames[i] + ".html");
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
