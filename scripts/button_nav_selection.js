@@ -19,12 +19,22 @@ let lastButtonIndex = -1;
 let buttonLock = false;
 
 /* Adds the included text data into the array of text. */
-for (let i = 0; i < ContentNames.length; ++i) {
-    IncludeText.push("");
-    fetch("./Data/pages/" + ContentNames[i] + ".html")
-        .then(r => r.text())
-        .then(t => IncludeText[i] = t)
+async function loadContent() {
+    for (let i = 0; i < ContentNames.length; ++i) {
+        IncludeText.push("");
+        try {
+            const response = await fetch("./data/pages/" + ContentNames[i] + ".html");
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            IncludeText[i] = await response.text();
+        } catch (error) {
+            console.error("Error fetching content:", error.message);
+        }
+    }
 }
+
+loadContent();
 
 /* Display the included text for the correct content. */
 
