@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
 
 @font-face {
     font-family: cascadia;
-    src: url("fonts/cascadia.ttf");
+    src: url("../styles/fonts/Cascadia.ttf");
 }
 
 body {
