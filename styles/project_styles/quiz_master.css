@@ -1,0 +1,49 @@
+@font-face {
+    font-family: quiz_font;
+    src: url("../fonts/Copyduck\ 400.otf");
+}
+
+#quiz_title {
+    color: rgba(255, 255, 255, 255);
+    -webkit-text-stroke: 2px rgb(155, 146, 21);
+    font-family: 'quiz_font', 'monospace';
+    font-size: 5.8rem;
+    letter-spacing: +0.7rem;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#github_link_quiz {
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+#quiz_quote {
+    font-family: 'VT323', 'monospace';
+    color: rgba(255, 255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-size: 25px;
+}
+
+#quiz_tldr {
+    text-align: center;
+}
+
+#quiz_body {
+    text-align: center;
+    font-family: 'cascadia', 'monospace';
+}
+
+#quiz_youtube {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.quiz_text {
+    color: rgba(255, 255, 255, 255);
+    font-size: 1.8rem;
+    letter-spacing: -.05rem;
+}

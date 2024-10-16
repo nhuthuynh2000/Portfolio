@@ -1,0 +1,49 @@
+@font-face {
+    font-family: delivery_font;
+    src: url("../fonts/Delivery\ Note\ DEMO\ Regular\ 400.otf");
+}
+
+#delivery_title {
+    color: rgba(255, 255, 255, 255);
+    -webkit-text-stroke: 2px rgb(41, 228, 24);
+    font-family: 'delivery_font', 'monospace';
+    font-size: 5.8rem;
+    letter-spacing: +0.7rem;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#github_link_delivery {
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+#delivery_quote {
+    font-family: 'VT323', 'monospace';
+    color: rgba(255, 255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-size: 25px;
+}
+
+#delivery_tldr {
+    text-align: center;
+}
+
+#delivery_body {
+    text-align: center;
+    font-family: 'cascadia', 'monospace';
+}
+
+#delivery_youtube {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.delivery_text {
+    color: rgba(255, 255, 255, 255);
+    font-size: 1.8rem;
+    letter-spacing: -.05rem;
+}
