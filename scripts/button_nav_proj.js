@@ -9,6 +9,7 @@ const ProjectNames =
         "defense_the_realm",
         "mini_shoot",
         "genshin",
+        "homeland_guardians"
     ]
 
 let ProjectText = [];
