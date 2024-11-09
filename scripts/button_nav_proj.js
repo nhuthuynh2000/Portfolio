@@ -4,12 +4,14 @@
 
 const ProjectNames =
     [
-        "delivery_driver",
-        "quiz_master",
         "defense_the_realm",
         "mini_shoot",
         "genshin",
-        "homeland_guardians"
+        "homeland_guardians",
+        "blood",
+        "bank",
+        "travel",
+        "vks"
     ]
 
 let ProjectText = [];

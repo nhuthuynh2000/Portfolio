@@ -68,6 +68,17 @@ h5 {
     letter-spacing: -.05rem;
 }
 
+#change_language {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#change_language a img {
+    width: 3.5rem;
+    margin-bottom: 20px;
+}
+
 /* An image encapsulating the full width of a page */
 .landing_logo {
     margin: 10px auto;
